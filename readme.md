@@ -1,10 +1,7 @@
 # Sistema de Votação Eletrônica em Java 🗳️
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-
-![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
-
-![Licença](https://img.shields.io/badge/Licença-MIT-blue?style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
+ ![Licença](https://img.shields.io/badge/Licença-MIT-blue?style=for-the-badge)
 
 **Aplicação baseada em console (CLI) desenvolvida em Java puro, simulando todo o ciclo de uma eleição, desde o cadastro de partidos e candidatos até a apuração dos votos e emissão de relatórios.**
 
@@ -24,7 +21,7 @@ O projeto foca em Programação Orientada a Objetos, separação de responsabili
 
 **Relatórios: Envio simulado de e-mail com o resultado final para todos os participantes.**
 
-###📢 Painel do Candidato
+### 📢 Painel do Candidato
 **Cadastro Completo: Nome, CPF, E-mail, Partido e Número de escolha.**
 
 **Validações: Verificação de idade (18 a 80 anos) e CPF válido.**
