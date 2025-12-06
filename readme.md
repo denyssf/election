@@ -1,4 +1,4 @@
-#Sistema de Votação Eletrônica em Java 🗳️
+# Sistema de Votação Eletrônica em Java 🗳️
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 
@@ -10,8 +10,8 @@
 
 O projeto foca em Programação Orientada a Objetos, separação de responsabilidades e implementação rigorosa de regras de negócio.
 
-##📋 Funcionalidades
-##👤 Painel do Organizador (Admin)
+## 📋 Funcionalidades
+## 👤 Painel do Organizador (Admin)
 **Gestão de Partidos: Criação de partidos com ou sem limite de candidatos.**
 
 **Gestão de Candidatos: Visualização de lista completa e remoção de candidatos.**
@@ -33,14 +33,14 @@ O projeto foca em Programação Orientada a Objetos, separação de responsabili
 
 **Votação: Permissão para votar em si mesmo ou em outros.**
 
-##🗳️ Painel do Eleitor
+## 🗳️ Painel do Eleitor
 **Cadastro: Dados pessoais com validação granular de data de nascimento (Dia/Mês/Ano).**
 
 **Segurança: Validação de CPF único (impede duplicidade).**
 
 **Votação: Processo de voto secreto utilizando CPF + Código de Acesso recebido por e-mail.**
 
-##🛡️ Regras de Negócio e Validações
+## 🛡️ Regras de Negócio e Validações
 **O sistema implementa diversas travas de segurança e integridade:**
 
 **Validação de Idade: O sistema solicita dia, mês e ano separadamente e bloqueia o cadastro se a idade for < 18 ou > 80 anos.**
@@ -55,7 +55,7 @@ O projeto foca em Programação Orientada a Objetos, separação de responsabili
 
 **Integridade Temporal: Não é possível deletar candidatos ou alterar dados sensíveis enquanto a eleição estiver ativa ou finalizada.**
 
-##🚀 Como Executar
+## 🚀 Como Executar
 **Pré-requisitos**
 Java JDK 8 ou superior instalado.
 
@@ -77,7 +77,7 @@ javac *.java
 java SistemaEleitoral
 ```
 
-##📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 O código foi refatorado para seguir o princípio de Responsabilidade Única (SRP):
 
 SistemaEleitoral.java: Classe principal (Main) e gerenciamento de menus.
@@ -94,14 +94,14 @@ Validador.java: Lógica de validação de CPF e tratamento de Datas.
 
 Utils.java: Utilitários (simulação de envio de e-mail).
 
-##🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 Java (Core): Lógica principal.
 
 Java Time API (LocalDate, Period): Manipulação precisa de datas e idades.
 
 Java Util (Scanner, List, Stream): Manipulação de coleções e entrada de dados.
 
-##📝 Autor##
+## 📝 Autor
 Desenvolvido por Denys.
 
 Este projeto foi desenvolvido para fins de estudo sobre Lógica de Programação e Orientação a Objetos.
