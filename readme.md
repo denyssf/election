@@ -1,13 +1,17 @@
-#Sistema de Votação Eletrônica em Java 🗳️#
+#Sistema de Votação Eletrônica em Java 🗳️
+
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
+
 ![Licença](https://img.shields.io/badge/Licença-MIT-blue?style=for-the-badge)
+
 **Aplicação baseada em console (CLI) desenvolvida em Java puro, simulando todo o ciclo de uma eleição, desde o cadastro de partidos e candidatos até a apuração dos votos e emissão de relatórios.**
 
 O projeto foca em Programação Orientada a Objetos, separação de responsabilidades e implementação rigorosa de regras de negócio.
 
-##📋 Funcionalidades##
-##👤 Painel do Organizador (Admin)##
+##📋 Funcionalidades
+##👤 Painel do Organizador (Admin)
 **Gestão de Partidos: Criação de partidos com ou sem limite de candidatos.**
 
 **Gestão de Candidatos: Visualização de lista completa e remoção de candidatos.**
@@ -20,7 +24,7 @@ O projeto foca em Programação Orientada a Objetos, separação de responsabili
 
 **Relatórios: Envio simulado de e-mail com o resultado final para todos os participantes.**
 
-##📢 Painel do Candidato##
+##📢 Painel do Candidato
 **Cadastro Completo: Nome, CPF, E-mail, Partido e Número de escolha.**
 
 **Validações: Verificação de idade (18 a 80 anos) e CPF válido.**
@@ -29,14 +33,14 @@ O projeto foca em Programação Orientada a Objetos, separação de responsabili
 
 **Votação: Permissão para votar em si mesmo ou em outros.**
 
-##🗳️ Painel do Eleitor##
+##🗳️ Painel do Eleitor
 **Cadastro: Dados pessoais com validação granular de data de nascimento (Dia/Mês/Ano).**
 
 **Segurança: Validação de CPF único (impede duplicidade).**
 
 **Votação: Processo de voto secreto utilizando CPF + Código de Acesso recebido por e-mail.**
 
-##🛡️ Regras de Negócio e Validações##
+##🛡️ Regras de Negócio e Validações
 **O sistema implementa diversas travas de segurança e integridade:**
 
 **Validação de Idade: O sistema solicita dia, mês e ano separadamente e bloqueia o cadastro se a idade for < 18 ou > 80 anos.**
@@ -51,7 +55,7 @@ O projeto foca em Programação Orientada a Objetos, separação de responsabili
 
 **Integridade Temporal: Não é possível deletar candidatos ou alterar dados sensíveis enquanto a eleição estiver ativa ou finalizada.**
 
-##🚀 Como Executar##
+##🚀 Como Executar
 **Pré-requisitos**
 Java JDK 8 ou superior instalado.
 
@@ -73,7 +77,7 @@ javac *.java
 java SistemaEleitoral
 ```
 
-##📂 Estrutura do Projeto##
+##📂 Estrutura do Projeto
 O código foi refatorado para seguir o princípio de Responsabilidade Única (SRP):
 
 SistemaEleitoral.java: Classe principal (Main) e gerenciamento de menus.
@@ -90,7 +94,7 @@ Validador.java: Lógica de validação de CPF e tratamento de Datas.
 
 Utils.java: Utilitários (simulação de envio de e-mail).
 
-##🛠️ Tecnologias Utilizadas##
+##🛠️ Tecnologias Utilizadas
 Java (Core): Lógica principal.
 
 Java Time API (LocalDate, Period): Manipulação precisa de datas e idades.
